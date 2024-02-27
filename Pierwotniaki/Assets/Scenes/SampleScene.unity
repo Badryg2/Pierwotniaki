@@ -273,12 +273,6 @@ MonoBehaviour:
   gravity: 9.81
   mouseSensitivity: 2
   upDownRange: 80
-  horizontalMoveInput: Horizontal
-  verticalMoveInput: Vertical
-  MouseXInput: Mouse X
-  MouseYInput: Mouse Y
-  sprintKey: 304
-  jumpKey: 32
   footstepSource: {fileID: 161031291}
   footstepSounds:
   - {fileID: 8300000, guid: 213a5c3503e23334abce5df016e2d65a, type: 3}
@@ -290,6 +284,8 @@ MonoBehaviour:
   walkStepInterval: 0.5
   sprintStepInterval: 0.3
   velocityThreshold: 2
+  PlayerControls: {fileID: -944628639613478452, guid: 687588f5ccbaf154ba68a58d9afb05d0,
+    type: 3}
 --- !u!143 &161031293
 CharacterController:
   m_ObjectHideFlags: 0
